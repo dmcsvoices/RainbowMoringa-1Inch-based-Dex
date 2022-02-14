@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow Moringa Coin Exchange</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/dex.css">
+    <script src="./js/dex.js"></script>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header bg-primary">
+            <header>
+                <nav id="nav-header">     
+                    <strong  class="display-3" id="logo-reference" onclick="location.href='./index.html'">Token Swap Powererd by 1Inch Dex</strong> 
+                    <blank></blank> 
+  
+                </nav>
+            </header>
+        </div>
+    </div>
+    <main>
+    <div class="container container-sm">
+       <h1>Welcome to the Rainbow Moringa Coin Exchange</h1>
+    </div>
+    <div class="container container-sm">
+        <section class="article-section">
+            <div class="article-title">
+                These are the Top 10 Coins:
+            </div>
+            <div>
+                <ul class="top10CoinList"></ul>
+            </div>
+        </section>
+    </div>
+    <div class="container container-sm">
+        <section class="article-section">
+            <div class="article-title">
+                Use the form below to exchange from one coin to another
+            </div>
+            <div class="exchangeForm">
+                <form action="#" method="POST" >
+                    <div:form-row class="form-row">
+                        <label for="fsymbol">Choose the From Coin:<select class ="ddFromTickerList" id="ddFromTickerList" name="ddFromTickerList"></select></label>
+                    </div:form-row>
+                    <div:form-row class="form-row">
+                        <label for="tsymbol">Choose the To Coin:<select class ="ddToTickerList" id="ddToTickerList" name="ddToTickerList"></select></label>
+                    </div:form-row>
+                    <div:form-row>
+                        <button type="submit" class="js-submit-quote" disabled>Get Quote</button>
+                    </div:form-row>
+                </form>
+            </div>
+        </section>
+    </div>
+    <div class="container container-sm">
+        <section class="article-section">
+            <div class="article-title">
+                See estimated Gas fee for this transaction below:
+            </div>
+            <div name="formResult" class="formResult">
+            </div>
+        </section>
+    </div>
+</main>
+<footer>
+    <p class="copywritenotice">Copyright &copy; 2022 Darren Santos</p>
+    <nav id="nav-footer">      
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+    </nav>
+</footer>
+
+
+
+    
+</body>
+</html>
