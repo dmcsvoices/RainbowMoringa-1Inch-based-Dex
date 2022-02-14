@@ -9,7 +9,8 @@
 
 
 body {
-    background-color: rgb(233, 216, 166);
+    /*background-color: rgb(233, 216, 166);*/
+    background-image: linear-gradient(to bottom right, rgb(229, 236, 233), rgb(33, 145, 251));
 }
 
 
@@ -234,7 +235,7 @@ label {
         padding-right: 10px;
         padding-bottom: 10px;
         width: 100%;
-        background-color: rgb(148, 210, 189);
+        background-color: rgb(229, 236, 233);
         display: flex;
         flex-grow: 1;
         box-shadow: 2px 2px 7px rgb(22, 7, 7);
@@ -285,7 +286,7 @@ label {
         padding-bottom: 10px;
         box-shadow: 2px 2px 7px rgb(22, 7, 7);
 
-        background-color: rgb(148, 210, 189);
+        background-color: rgb(229, 236, 233);
         
         border-color: rgb(0, 95, 115);
         border-radius: 5px; 
@@ -329,15 +330,15 @@ label {
         margin-left: 12px;
         box-shadow: 2px 2px 7px rgb(22, 7, 7);
 
-        background-color: rgb(148, 210, 189);
-        
+        background-color: rgb(229, 236, 233);
+        border: 2px solid rgb(0, 95, 115);
         border-color: rgb(0, 95, 115);
         border-radius: 5px; 
         border-style: none;
     }
 
     li {
-        background-color: rgb(233, 216, 166);
+        background-color: rgb(229, 236, 233);
         font-family: 'Asap', sans-serif;
         display: flex;
         flex-direction: column;
@@ -345,9 +346,6 @@ label {
         align-items: center; 
         margin: 4px;
         padding: 4px;   
-        border-color: rgb(0, 95, 115);
-        border-style:solid;
-        border-radius: 10px; 
     }
 
     footer {
@@ -440,8 +438,8 @@ label {
     
 
     .formResult {
-        width: 402px;
-        background-color: rgb(148, 210, 189);
+        
+        background-color: rgb(229, 236, 233);
         display: flex;
         box-shadow: 2px 2px 7px rgb(22, 7, 7);
         flex-direction: column;
@@ -502,10 +500,10 @@ label {
     
     form {
         width: 250px;
-        background:  rgb(148, 210, 189);
+        background:  rgb(229, 236, 233);
         box-shadow: 2px 2px 7px rgb(22, 7, 7);
         padding: 2px;
-        border: 15px solid rgb(0, 95, 115);
+        border: 2px solid rgb(0, 95, 115);
         margin: 30px 30px 8px;
         display: flex;
         flex-direction: column;
@@ -548,8 +546,9 @@ label {
     
     ul {
         width: 250px;
-        background-color: rgb(148, 210, 189);
+        background-color: rgb(229, 236, 233);
         display: flex;
+        border: 2px solid rgb(0, 95, 115);
         box-shadow: 2px 2px 7px rgb(22, 7, 7);
         flex-direction: column;
         justify-content: center;
@@ -558,7 +557,7 @@ label {
     }
     
     li {
-        background-color: rgb(148, 210, 189);
+        background-color: rgb(229, 236, 233);
         font-family: 'Asap', sans-serif;
         display: flex;
         flex-direction: row;

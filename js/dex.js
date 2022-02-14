@@ -39,7 +39,7 @@ async function formSubmitted(event) {
         const quote = await response.json();
         const exchange_rate = Number(quote.toTokenAmount) / Number(quote.fromTokenAmount) * decimalRatio;
         let $resultSection = document.querySelector('[name=formResult]');
-        $resultSection.innerHTML = `<p>1 ${quote.fromToken.symbol} = ${exchange_rate} ${quote.toToken.symbol}.</p><br><p>Estimated Gas Consumption: ${quote.estimatedGas}</p>`;
+        $resultSection.innerHTML = `<div>1 ${quote.fromToken.symbol} = ${exchange_rate} ${quote.toToken.symbol}.</div><br><div>Estimated Gas Consumption: ${quote.estimatedGas}</div>`;
     }  
     catch (e) {console.log(e);}  
 
